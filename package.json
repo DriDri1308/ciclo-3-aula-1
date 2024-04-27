@@ -1,0 +1,22 @@
+{
+  "name": "campinho2024",
+  "version": "1.0.0",
+  "description": "## Índice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DriDri1308/ciclo-3-aula-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DriDri1308/ciclo-3-aula-1/issues"
+  },
+  "homepage": "https://github.com/DriDri1308/ciclo-3-aula-1#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

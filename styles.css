@@ -1,0 +1,92 @@
+/* Estilização do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/Imagem colada (2).png");
+    background-size: cover;
+}
+
+/* Estilização do container principal */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilização do título */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilização dos grupos de formulário */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Estilização das etiquetas */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Estilização dos inputs e select */
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Estilização do botão */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Estilização do botão ao passar o mouse por cima */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilização dos resultados */
+#results {
+    margin-top: 20px;
+    display: none;
+}
+
+/* Estilização de elementos ocultos */
+.hidden {
+    display: none;
+}
+
+/* Estilização dos resultados */
+#total-with-discount,
+#amount-per-person {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Estilização da caixa de pergunta */
+#discount-question {
+    width: 465px;
+    height: 196px;
+    top: -152px;
+    left: 758px;
+    padding: 0px 0px 2px 0px;
+    gap: 0px;
+    opacity: 0px;
+}

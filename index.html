@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Conta - Pizzaria Patroni</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Conta - Pizzaria Patroni</h1>
+        <form id="calculator-form">
+            <div class="form-group">
+                <label for="num-people">Número de pessoas na mesa:</label>
+                <input type="number" id="num-people" name="num-people" required>
+            </div>
+            <div class="form-group">
+                <label for="total-bill">Valor total da conta (R$):</label>
+                <input type="number" id="total-bill" name="total-bill" required>
+            </div>
+            <div class="form-group">
+                <label for="payment-method">Método de pagamento:</label>
+                <select id="payment-method" name="payment-method" required>
+                    <option value="pix">PIX</option>
+                    <option value="cash">Dinheiro</option>
+                    <option value="card">Cartão</option>
+                </select>
+            </div>
+            <button type="submit">Calcular</button>
+        </form>
+        <div id="results" class="hidden">
+            <h2>Resultado:</h2>
+            <p>Total da conta com desconto: <span id="total-with-discount"></span></p>
+            <p>Valor por pessoa: <span id="amount-per-person"></span></p>
+        </div>
+        <div id="discount-question" class="hidden">
+            <div class="message-box">
+                <p>Esse pagamento terá desconto?</p>
+                <button onclick="applyDiscount(true)">Sim</button>
+                <button onclick="applyDiscount(false)">Não</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
